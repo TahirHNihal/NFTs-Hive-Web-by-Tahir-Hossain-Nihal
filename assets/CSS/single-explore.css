@@ -1,0 +1,85 @@
+.collection-details-wrapper{
+    gap: 90px;
+    padding: 80px 0;
+}
+.collection-details-left{
+    width: 45%;
+}
+.collection-details-left .collection-details-img{
+    width: 595px;
+    height: 595px;
+    object-fit: cover;
+    background: #343434;
+    padding: 8px;
+    border-radius: 20px;
+}
+.collection-details-right{
+    width: 55%;
+}
+.collection-details-right .collection-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.author-creator-wrapper{
+    gap: 30px;
+}
+.author-details{
+    background: #343444;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 10px;
+    padding: 8px ;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+/* .author-details .author-avatar{} */
+.author-details .author-avatar img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.author-role{
+    font-size: 14px;
+    font-family: MabryProReg;
+    font-weight: 300;
+}
+.author-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.collection-des{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.price-countdown-wrapper{
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.price-countdown-wrapper .price-div-wrapper{
+    width: 50%;
+}
+.price-countdown-wrapper .price-div-wrapper .price-div{
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    background: #343444;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+.price-countdown-wrapper .price-div-wrapper .price-div .price-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+.price-countdown-wrapper .price-div-wrapper .price-div .price{
+    font-size: 14px;
+    font-family: MabryProReg;
+    font-weight: 300;
+}
+.price-countdown-wrapper .price-div-wrapper .price-div .price .eth-price{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 16px;
+}

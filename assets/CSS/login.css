@@ -1,0 +1,54 @@
+.login-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.login-form-wrapper{
+    width: 450px;
+    height: auto;
+    background: #343444;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.login-form-wrapper .login-form{}
+.login-form-wrapper .login-form h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.login-form-wrapper .login-form input{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    background: #49495e;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 12px;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+.login-form-wrapper .login-form .password-field{
+    background: #49495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 12px;
+    border-radius: 10px;
+
+}
+.login-form-wrapper .login-form .password-field #password{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+.login-form-wrapper .login-form .password-field i{
+    cursor: pointer;
+}
+.forgot-pass{
+    display: inline-block;
+    text-align-last: left;
+    margin-bottom: 10px;
+}

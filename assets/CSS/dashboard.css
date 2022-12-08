@@ -1,0 +1,135 @@
+.dashboard-section{}
+.dashboard-wrapper{
+    display: flex;
+}
+.dashboard-sidebar-wrapper{
+    background: #343444;
+    width: 20%;
+    height: 85vh;
+    padding: 50px 40px;
+    position: relative;
+    border-radius: 0 20px 0 0;
+}
+.dashboard-sidebar-wrapper .dashboard-sidebar .logo {
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard-sidebar-wrapper .dashboard-sidebar .logo .menu-bars{
+    font-size: 25px;
+}
+.sidebar-menu-wrapper{}
+.sidebar-menu-wrapper .sidebar-menu{
+}
+.sidebar-menu-wrapper .sidebar-menu li{
+    margin-bottom: 20px;
+}
+.sidebar-menu-wrapper .sidebar-menu li a{
+    display: inline-block;
+    width: 100%;
+}
+.sidebar-menu-wrapper .sidebar-menu li a.active{
+    background: #49495e;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.sidebar-menu-wrapper .sidebar-menu li a i{
+    margin-right: 10px;
+}
+.logout-div-wrapper{
+    position: absolute;
+    bottom: 20px;
+    background: #49495e;
+    width: 95%;
+    left: 2%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.logout-div-wrapper .authors{}
+.logout-div-wrapper .authors .author-image img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.logout-div-wrapper .author-div{
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logout-div-wrapper .authors .author-info{}
+.logout-div{}
+.logout-div a{}
+.logout-div a i{
+    margin-right: 10px;
+}
+.dashboard-content-box{
+    margin: 0 auto;
+    width: 75%;
+}
+/* Add NFTs Page Style */
+.nfts-list-table{
+    width: 100%;
+    background: #49495e;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.nfts-list-table .table-head{
+    background: #343444;
+    table-layout: auto;
+}
+.nfts-list-table thead tr{
+}
+.nfts-list-table thead tr th{
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nfts-list-table thead tr th:nth-child(1){
+    border-radius: 10px 0 0 10px;
+}
+.nfts-list-table thead tr th:nth-child(6){
+    border-radius: 0 10px 10px 0;
+}
+.nfts-list-table tbody tr{
+    padding: 15px 15px;
+    border-bottom: 1px solid #fff;
+}
+.nfts-list-table tbody tr td{
+    text-align: center;
+    padding: 10px 0;
+}
+.nfts-list-table tbody tr td img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.action-btn-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.action-btn-menu li{}
+.action-btn-menu li a{
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background: #5928e5;
+    transition: .4s ease-in-out;
+}
+.action-btn-menu li:nth-child(2) a{
+    background: #edde08;
+}
+.action-btn-menu li:nth-child(3) a{
+    background: #e81d53;
+}
+.action-btn-menu li a:hover{
+    transform: translateY(-6px);
+}
