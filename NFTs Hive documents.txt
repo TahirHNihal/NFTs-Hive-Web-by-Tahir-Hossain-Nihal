@@ -1,11 +1,22 @@
 1. Password Change
 2. NFT upload
- >> Title
- >> Description
- >> Price in ETH
- >> NFT image
+ 	>> Title
+ 	>> Description
+	 >> Price in ETH
+	 >> NFT image
 3. Team member
- >> Name
- >> Role
- >> Social media link
-4. 
+ 	>> Name
+	 >> Role
+ 	>> Social media link
+4. User Scheme
+ 	>> Name
+ 	>> Username
+ 	>> Email
+ 	>> Password
+5. Team member Schema
+	>> Name
+	>> Role
+  	>> Social media link
+		>> Facebook
+		>> Instagram
+		>> Twitter

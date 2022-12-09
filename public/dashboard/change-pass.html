@@ -21,16 +21,16 @@
       <div class="container">
         <div class="header-wrapper">
           <div>
-            <a href="./index.html"
+            <a href="/public/index.html"
               ><h2 style="font-size: 30px">NFTs Hive</h2></a
             >
             <!-- <img img="../img/images/nerko-dark.svg" alt="" /> -->
           </div>
           <div>
             <ul class="main-menu">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./explore.html">Explore</a></li>
-              <li><a href="./contact.html">Contact Us</a></li>
+              <li><a href="/public/index.html">Home</a></li>
+              <li><a href="/public/explore.html">Explore</a></li>
+              <li><a href="/public/contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div>
@@ -54,7 +54,7 @@
         <div class="dashboard-sidebar-wrapper">
           <div class="dashboard-sidebar">
             <div class="logo d-flex">
-              <a href="./index.html"
+              <a href="/public/index.html"
                 ><h2 style="font-size: 30px">NFTs Hive</h2></a
               >
               <div class="menu-bars">
@@ -108,7 +108,46 @@
           </div>
         </div>
         <div class="dashboard-content-box">
-          <h1>Change Password</h1>
+          <h1 class="dashboard-page-title">Change Password</h1>
+          <div>
+            <div class="change-pass-form">
+              <div class="pass-change-form-wrapper">
+                <form action="#" class="pass-change-form">
+
+                  <div class="mb">
+                    <div class="password-field">
+                      <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter Your New Password"
+                      />
+                      <i class="fas fa-eye d-block" id="passShow"></i>
+                      <i class="fas fa-eye-slash d-none" id="passHide"></i>
+                    </div>
+                  </div>
+
+                  <div class="mb">
+                    <div class="password-field">
+                      <input
+                        type="password"
+                        id="password2"
+                        placeholder="Enter Your Confirm Password"
+                      />
+                      <i class="fas fa-eye d-block" id="passShow2"></i>
+                      <i class="fas fa-eye-slash d-none" id="passHide2"></i>
+                    </div>
+                  </div>
+                  <!-- <div class="pass-show-hide">
+                    <i class="fas fa-eye d-block" id="passShow"><span>Show Password</span></i>
+                    <i class="fas fa-eye-slash d-none" id="passHide"><span>Hide Password</span> </i>
+                  </div> -->
+                  <div class="mb">
+                    <button class="cmn-btn w-100" type="submit">Change Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -139,5 +178,7 @@
     <!-- Footer Section -->
 
     <script src="/assets/JS/app.js"></script>
+    <script src="/assets/JS/password-show-hide.js"></script>
+    <script src="/assets/JS/menuActiv.js"></script>
   </body>
 </html>

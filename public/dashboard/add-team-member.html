@@ -21,16 +21,16 @@
       <div class="container">
         <div class="header-wrapper">
           <div>
-            <a href="./index.html"
+            <a href="/public/index.html"
               ><h2 style="font-size: 30px">NFTs Hive</h2></a
             >
             <!-- <img img="../img/images/nerko-dark.svg" alt="" /> -->
           </div>
           <div>
             <ul class="main-menu">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./explore.html">Explore</a></li>
-              <li><a href="./contact.html">Contact Us</a></li>
+              <li><a href="/public/index.html">Home</a></li>
+              <li><a href="/public/explore.html">Explore</a></li>
+              <li><a href="/public/contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div>
@@ -54,7 +54,7 @@
         <div class="dashboard-sidebar-wrapper">
           <div class="dashboard-sidebar">
             <div class="logo d-flex">
-              <a href="./index.html"
+              <a href="/public/index.html"
                 ><h2 style="font-size: 30px">NFTs Hive</h2></a
               >
               <div class="menu-bars">
@@ -86,7 +86,7 @@
               </ul>
             </div>
             <div class="logout-div-wrapper">
-              <div class="d-flex author-div">
+              <div class="d-flex author-div-wrapper">
                 <div class="authors">
                   <div class="d-flex author-div">
                     <div class="author-image">
@@ -108,11 +108,138 @@
           </div>
         </div>
         <div class="dashboard-content-box">
-          <h1>Add Team Members</h1>
+          <div class="dashboard-content">
+            <!-- <h2>NFTs List</h2> -->
+            <div class="member-table-wrapper">
+              <table class="team-members-list-table">
+                <thead class="table-head">
+                  <tr>
+                    <th>Id</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Social Media Link</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody class="table-body">
+                  
+                    <tr>
+                      <td>01</td>
+                      <td><img src="/assets/images/01.png" alt=""></td>
+                      <td>Tahir Hossain Nihal</td>
+                      <td style="text-align: center;">Artist</td>
+                      <td>
+                        <ul class="member-social-link">
+                          <li><a href="#"></a>https://www.facebook.com/Nihal455/ </li>
+                          <li><a href="#"></a>https://www.instagram.com/devtahir_29/ </li>
+                          <li><a href="#"></a>https://twitter.com/devtahir29</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul class="action-btn-menu">
+                          <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                          <li><a href="#"><i class="fas fa-edit"></i></a></li>
+                          <li><a href="#"><i class="fas fa-trash"></i></a></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <td>02</td>
+                      <td><img src="/assets/images/02.png" alt=""></td>
+                      <td>Tahir Hossain Nihal</td>
+                      <td style="text-align: center;">Artist</td>
+                      <td>
+                        <ul class="member-social-link">
+                          <li><a href="#"></a>https://www.facebook.com/Nihal455/ </li>
+                          <li><a href="#"></a>https://www.instagram.com/devtahir_29/ </li>
+                          <li><a href="#"></a>https://twitter.com/devtahir29</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul class="action-btn-menu">
+                          <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                          <li><a href="#"><i class="fas fa-edit"></i></a></li>
+                          <li><a href="#"><i class="fas fa-trash"></i></a></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <td>03</td>
+                      <td><img src="/assets/images/03.png" alt=""></td>
+                      <td>Tahir Hossain Nihal</td>
+                      <td style="text-align: center;">Artist</td>
+                      <td>
+                        <ul class="member-social-link">
+                          <li><a href="#"></a>https://www.facebook.com/Nihal455/ </li>
+                          <li><a href="#"></a>https://www.instagram.com/devtahir_29/ </li>
+                          <li><a href="#"></a>https://twitter.com/devtahir29</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul class="action-btn-menu">
+                          <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                          <li><a href="#"><i class="fas fa-edit"></i></a></li>
+                          <li><a href="#"><i class="fas fa-trash"></i></a></li>
+                        </ul>
+                      </td>
+                    </tr>
+                </tbody>
+              </table>
+              <button class="cmn-btn add-btn" id="modalOpenBtn">Add Member</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Dashboard Section -->
+
+    <!-- Team Member Add Modal -->
+    <section class="modal-section d-none" id="modal">
+      <div class="modal-form-position">
+        <div class="modal-wrapper">
+        <div class="modal-close-div d-flex">
+          <div><h3>Add Team Member</h3></div>
+          <div><i class="fas fa-close" id="modalCloseBtn"></i></div>
+        </div>
+        <div class="modal-form">
+          <form action="#">
+            <div class="mb">
+              <div class="image-preview">
+                <label for="memberProfileImage">
+                  <img src="/assets/images/01.png" class="member-profile-photo member-profile-preview" alt="">
+                </label>
+              </div>
+              <input type="file" name="" id="memberProfileImage">
+            </div>
+            <div class="mb">
+              <input type="text" placeholder="Enter Member Name">
+            </div>
+            <div class="mb">
+              <input type="text" placeholder="Enter Member Role">
+            </div>
+            <div class="mb">
+              <input type="text" placeholder="https://www.facebook.com/username">
+            </div>
+            <div class="mb">
+              <input type="text" placeholder="https://www.instagram.com/username">
+            </div>
+            <div class="mb">
+              <input type="text" placeholder="https://twitter.com/username">
+            </div>
+            
+            <div class="mb">
+              <button class="cmn-btn w-100" type="submit">Add Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+      
+    </section>
+    <!-- Team Member Add Modal -->
 
     <!-- Footer Section -->
     <section class="footer-section">
@@ -139,5 +266,7 @@
     <!-- Footer Section -->
 
     <script src="/assets/JS/app.js"></script>
+    <script src="/assets/JS/imagePreview.js"></script>
+    <script src="/assets/JS/menuActiv.js"></script>
   </body>
 </html>
